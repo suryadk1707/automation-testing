@@ -3,6 +3,7 @@ error_reporting(E_ALL && ~E_NOTICE && ~E_WARNING);
 // echo "<pre>";print_r($_REQUEST);exit;
 // echo "<pre>";print_r($_REQUEST);exit;
 // echo "<pre>";print_r($_REQUEST);exit;
+// echo "<pre>";print_r($_REQUEST);exit;
 $common_handler='<table class="shadow">';
 $place_holder='<tr><td class="form-label p-4 pb-2">Place Holder</td><td class="p-2"><input class="form-control" id="plho_'.$_REQUEST['vid'].'" onkeyup="editAttrs(`plho_'.$_REQUEST['vid'].'`,`ii'.$_REQUEST['vid'].'`,`placeholder`)" type="text"></td></tr>';
 $label = '<tr><td class="form-label p-4 pb-2">Lable</td><td class="p-2"><input class="form-control p-2" id="label_'.$_REQUEST['vid'].'" onkeyup="editAttrs(`label_'.$_REQUEST['vid'].'`,`il'.$_REQUEST['vid'].'`,`label`)" type="text"></td></tr>';
